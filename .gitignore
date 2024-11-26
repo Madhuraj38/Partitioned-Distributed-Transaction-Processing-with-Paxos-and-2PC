@@ -1,0 +1,5 @@
+*.sum
+*.db
+*.log
+*.mod
+*.csv
