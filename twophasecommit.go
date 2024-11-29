@@ -296,7 +296,6 @@ func (px *Paxos) sendAccept(megablock []Transaction) bool {
 					logger.Printf("Accept call failed for peer %s: %v", px.peers[peer], err)
 				}
 			}
-
 			acceptChan <- reply.Accepted
 		}(i)
 	}

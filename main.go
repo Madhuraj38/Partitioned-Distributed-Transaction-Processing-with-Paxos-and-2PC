@@ -283,7 +283,6 @@ func prepareTransaction(clusterID int, tx Transaction) {
 }
 
 func processTransaction(tx Transaction) {
-
 	shardX := ShardMapping(tx.Sender)
 	shardY := ShardMapping(tx.Receiver)
 
